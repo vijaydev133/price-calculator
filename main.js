@@ -46,11 +46,7 @@ var tax = document.getElementById("tax")
 
 var grand_total = document.getElementById("grand-total")
 
-//  let s= sel_bat.getAttribute("option")
 
-//  sel_bat.addEventListener("onchange",function(){
-//         console.log(sel_bat.value);
-//  })
 
 sel_bat.onchange = function(){
     let bat_pri = parseInt(sel_bat.value)
@@ -67,10 +63,7 @@ sel_bat.onchange = function(){
 
 }
 
-// bat_price.onchange = function(){
-//     console.log("bat price changed");
-//         // tot.textContent = tot + bat_price.value;
-// }
+ 
 
 sel_ball.onchange = function(){
     let ball_pri = parseInt(sel_ball.value)
@@ -101,11 +94,6 @@ sel_stump.onchange = function(){
     grand_total.textContent = (parseInt(tot.textContent) + parseInt(tax.textContent))
 }
 
-// let sel_stump = document.getElementById("Stumpset")
-
-// let stump_price = document.getElementById("Stumpset-price")
-
-// let stump_unit = document.getElementById("Stumpset-unit")
 
 
 
@@ -126,11 +114,7 @@ sel_bat_gloves.onchange = function(){
 
 
 
-// let sel_bat_gloves = document.getElementById("bat-gloves")
 
-// let bat_gloves_price = document.getElementById("bat-gloves-price")
-
-// let bat_gloves_unit = document.getElementById("bat-gloves-unit")
 
 sel_keeping_gloves.onchange = function(){
     let keeping_gloves_pri = parseInt(sel_keeping_gloves.value)
@@ -148,8 +132,3 @@ sel_keeping_gloves.onchange = function(){
 
 
 
-// let sel_keeping_gloves = document.getElementById("keeping-gloves")
-
-// let keeping_gloves_price = document.getElementById("keeping-gloves-price")
-
-// let keeping_gloves_unit = document.getElementById("keeping-gloves-unit")
